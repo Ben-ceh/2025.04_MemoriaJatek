@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+#Jatek{
+    margin-top: 93px;
+    margin-bottom: 95px;
+    text-align: center;
+}
+#visszaGomb{
+    text-align: center;
+    margin-bottom: 75px;
+}
+#ujraGomb{
+    text-align: center;
+    margin-bottom: 3px;
+}
+#myBar {
+    width: 10%;
+    height: 30px;
+    background-color: wheat;
+    text-align: center; 
+    line-height: 30px; 
+    color: green;
+}
+#myIdoBar {
+    width: 10%;
+    height: 30px;
+    background-color: wheat;
+    text-align: center; 
+    line-height: 30px; 
+    color: green;
+    margin-top: 5px;
+}
+#progressBar{
+    text-align: center;
+}
+#ido{
+    text-align: center;
+}
+#foCim{
+    text-align: center;
+    color: wheat;
+}
