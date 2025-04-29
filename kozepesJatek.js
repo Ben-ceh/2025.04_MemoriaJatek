@@ -196,10 +196,10 @@ function idoKorlat() {
     }
     if (jelenlegIdo >= ido) {
       clearInterval(intervallum);
-      // Itt tiltsd le a játékot
+      
       alert("Lejárt az idő!")
       console.log("Lejárt az idő!");
-      // Példa: játék tiltása
+      
       document.querySelectorAll("button").forEach(btn => btn.disabled = true);
     }
   }, 1000);
